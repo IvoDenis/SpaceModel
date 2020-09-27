@@ -50,7 +50,7 @@ namespace Lab1
             chartResult.MouseWheel += chart1_MouseWheel;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonRun_Click(object sender, EventArgs e)
         {
             double time = Double.Parse(textBoxTime.Text);
             double dt = Double.Parse(textBoxDt.Text);
@@ -217,7 +217,7 @@ namespace Lab1
         }
 
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonGraphic_Click(object sender, EventArgs e)
         {
             if (modelBox.SelectedItem == "deltaOrbit")
             {

@@ -301,7 +301,7 @@
             this.buttonRun.Size = new System.Drawing.Size(100, 23);
             this.buttonRun.TabIndex = 0;
             this.buttonRun.UseVisualStyleBackColor = true;
-            this.buttonRun.Click += new System.EventHandler(this.button1_Click);
+            this.buttonRun.Click += new System.EventHandler(this.buttonRun_Click);
             // 
             // panel1
             // 
@@ -332,7 +332,7 @@
             this.buttonGraphics.Text = "button2";
             this.buttonGraphics.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonGraphics.UseVisualStyleBackColor = true;
-            this.buttonGraphics.Click += new System.EventHandler(this.button2_Click);
+            this.buttonGraphics.Click += new System.EventHandler(this.buttonGraphic_Click);
             // 
             // boxAxisY
             // 
